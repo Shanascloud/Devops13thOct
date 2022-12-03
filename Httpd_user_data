@@ -3,3 +3,5 @@ sudo su
 yum update -y
 yum install httpd -y
 service httpd start
+systemctl start httpd
+systemctl enable httpd
